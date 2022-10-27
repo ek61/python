@@ -21,7 +21,7 @@ while True:
         for(ex,ey,ew,eh) in eyes:
             cv2.rectangle(roi_color, (ex,ey),(ex+ew, ey+eh), (0,0,255),2)
     
-    cv2.imshow("baslik", img)
+    cv2.imshow("title", img)
     k = cv2.waitKey(30) & 0xff
 
     if k == 27:
