@@ -57,3 +57,4 @@ elif(x == 5):
 else:
     print("Yanlış özellik kodu girdiniz.")
 print("\n### Sistemden Çıkılıyor... ###")
+print("çalışıyor")
